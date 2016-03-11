@@ -3,7 +3,9 @@ scriptId="com.Eng&MathHack.demo1.script2"
 	scriptTitle="ForMinecraft"
 	scriptDetailsUrl=""
 	lock=true
-	mouse=false
+	mouse=
+	--use this line to check something
+	-- je ne sais pas
 	--Used for playing mine craft
 	function onForegroundWindowChange(app,title)
 		myo.debug("onForegroundWindowChange: "..app..","..title)
